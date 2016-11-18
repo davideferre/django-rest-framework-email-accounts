@@ -1,5 +1,11 @@
-# django-rest-framework-email-accounts
+=====
+django-rest-framework-email-accounts
+=====
+
 django-rest-framework-email-accounts is a simple Django app for django-rest-framework that use email instead of username to identify users.
+The authentication process is done with JWT (json web token) method for using it from a client side app.
+
+Detailed documentation is in the "docs" directory.
 
 Quick start
 -----------
