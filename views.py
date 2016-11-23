@@ -2,8 +2,8 @@
 from rest_framework import generics, mixins, permissions, status
 from rest_framework.response import Response
 
-from accounts.models import AppUser
-from accounts.serializers import AppUserSerializer
+from .models import AppUser
+from .serializers import AppUserSerializer
 
 
 class AppUser(mixins.CreateModelMixin, generics.GenericAPIView):

@@ -1,7 +1,7 @@
 """Account admin module."""
 from django.contrib import admin
 
-from accounts.models import AppUser
+from .models import AppUser
 
 
 class AppUserAdmin(admin.ModelAdmin):

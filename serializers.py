@@ -1,6 +1,6 @@
 """Accounts serializers module."""
 from rest_framework import serializers
-from accounts.models import AppUser
+from .models import AppUser
 
 
 class AppUserSerializer(serializers.ModelSerializer):
